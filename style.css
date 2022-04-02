@@ -144,3 +144,8 @@ main{
     min-height: 400px;
     flex-basis: 100%;
 }
+
+.flex-item div {
+    background-color: var(--charcoal);
+    padding: 8px 10px;
+}
