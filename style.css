@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;   
+   }
+
+:root{
+--shocking-pink-crayola: #ff69ebff;
+--persian-pink: #ff86c8ff;
+--salmon-pink: #ffa3a5ff;
+--mellow-apricot: #ffbf81ff;
+--mustard: #ffdc5eff;
+}   
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Courier New', Courier, monospace;
+   color: var(--shocking-pink-crayola);
+   background-color: var(--mustard);
+   line-height: 2; 
+}
