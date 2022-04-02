@@ -98,7 +98,7 @@ main{
 }
 
 .page-section {
-    margin: 25px;
+    margin: 25px 0;
     padding: 10px 0;
     display: flex;
     flex-direction: row;
@@ -131,13 +131,17 @@ main{
 
 .flex-item {
     border: 2px dashed var(--gunmetal);
+    color: var(--charcoal);
     min-height: 150px;
     max-height: 150px;
-    flex-basis: auto;
+    flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
-    margin: 1em;
+    margin: 0.5em;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
 }
 
 .flex-item:first-child {
@@ -145,7 +149,53 @@ main{
     flex-basis: 100%;
 }
 
+.flex-item:hover {
+    background-color: var(--maya-blue);
+}
+
 .flex-item div {
-    background-color: var(--charcoal);
+    background-color: var(--honolulu-blue);
     padding: 8px 10px;
 }
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-position: bottom;
+    display: inline-block;
+}
+
+.coding-example {
+    background-image: url(".//images/Coding.jpg");
+}
+
+@media screen and (max-width:998px) {
+    header {
+     padding: 0 0 10px 0;
+     justify-content: center;
+     text-align: center;
+    }
+    
+    header 1 {
+      width: 100%
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;  
+    }
+
+    header nav {
+        justify-content: center;
+    }
