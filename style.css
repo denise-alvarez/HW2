@@ -40,7 +40,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--honolulu-blue);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 
 header h1 {
@@ -48,7 +47,7 @@ header h1 {
     background-color: var(--blue-jeans);
     padding: 15px;
     margin: 0;
-    font-size: 5vw;
+    font-size: 3vw;
     line-height: 1;
 }
 
@@ -62,7 +61,6 @@ nav a {
     padding: 5px 10px;
     color: var(--gunmetal);
     background-position: bottom;
-    transition: all 0.25s ease-in;
 }
 
 main{
@@ -71,13 +69,13 @@ main{
 }
 
 .hero-banner {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/BORDER3.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     text-align: right;
-    min-height: 15vh;
+    min-height: 30vh;
     background-position: center;
 }
 
@@ -85,7 +83,7 @@ main{
     flex: 0 0 90;
 }
 .hero-banner h2 {
-    color: salmon;
+    color: var(--blue-jeans);
     padding: 20px 30px;
     display: inline;
     font-size: 3vw;
@@ -132,15 +130,15 @@ main{
 .flex-item {
     border: 2px dashed var(--gunmetal);
     color: var(--charcoal);
-    min-height: 150px;
+    min-height: 200px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     margin: 0.5em;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: cover;
     transition: all 0.5s;
 }
 
@@ -154,8 +152,8 @@ main{
 }
 
 .flex-item div {
-    background-color: var(--honolulu-blue);
-    padding: 8px 10px;
+    background-color: var(--honolulu-blue); opacity:0.8;
+    padding: 1px;
 }
 
 .flex-item h3 {
@@ -182,20 +180,18 @@ main{
     background-image: url(".//images/Coding.jpg");
 }
 
-@media screen and (max-width:998px) {
-    header {
-     padding: 0 0 10px 0;
-     justify-content: center;
-     text-align: center;
-    }
-    
-    header 1 {
-      width: 100%
-      padding: 5px;
-      margin-bottom: 10px;
-      font-size: 10vw;  
-    }
+.work2 {
+    background-image: url(".//images/Camera.jpg");
+}
 
-    header nav {
-        justify-content: center;
-    }
+.work3 {
+    background-image: url(".//images/VS\ .jpg");
+}
+
+.work4 {
+    background-image: url(".//images/App.jpg");
+}
+
+.work5{
+    background-image: url(".//images/Augmented.jpg");
+}
