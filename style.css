@@ -176,24 +176,24 @@ main{
     display: inline-block;
 }
 
-.coding-example {
-    background-image: url(".//images/Coding.jpg");
+.passwordgen {
+    background-image: url(".//images/password.png");
 }
 
 .work2 {
-    background-image: url(".//images/Camera.jpg");
+    background-image: url(".//images/quiz.jpg");
 }
 
 .work3 {
-    background-image: url(".//images/VS\ .jpg");
+    background-image: url(".//images/day.png");
 }
 
 .work4 {
-    background-image: url(".//images/App.jpg");
+    background-image: url(".//images/climate.png");
 }
 
 .work5{
-    background-image: url(".//images/Augmented.jpg");
+    background-image: url(".//images/color.png");
 }
 
 @media screen and (max-width: 980px) {
