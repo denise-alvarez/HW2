@@ -177,23 +177,23 @@ main{
 }
 
 .passwordgen {
-    background-image: url(".//images/password.png");
+    background-image: url("Images/password.png");
 }
 
 .work2 {
-    background-image: url(".//images/quiz.jpg");
+    background-image: url("Images/quiz.jpg");
 }
 
 .work3 {
-    background-image: url(".//images/day.png");
+    background-image: url("Images/day.png");
 }
 
 .work4 {
-    background-image: url(".//images/climate.png");
+    background-image: url("Images/dungeonCrawler.png");
 }
 
 .work5{
-    background-image: url(".//images/color.png");
+    background-image: url("Images/color.png");
 }
 
 @media screen and (max-width: 980px) {
